@@ -76,7 +76,7 @@ jobs:
   deploy-image-uat:
     needs: [build-and-scan-image]
     name: "Deployed image to uat"
-    uses: yjcdaniel/ci-cd-container/.github/workflows/cd.yml@main
+    uses: yjcdaniel/ci-cd-container/.github/workflows/CD.yaml@main
     with:
         target_env: "uat"
     secrets: inherit
