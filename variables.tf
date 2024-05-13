@@ -31,19 +31,19 @@ variable "ecs_service_name" {
 variable "ecs_task_defn_family" {
     description = "ECS task definition family name"
     type        = string
-    default     = "luqmanecstaskdef"
+    default     = "danecstaskdef"
 }
 
 variable "ecs_container_name" {
     description = "ECS container name"
     type        = string
-    default     = "luqman-container"
+    default     = "dan-container"
 }
 
 variable "ecs_port_name" {
     description = "ECS port name"
     type        = string
-    default     = "luqman-3000-tcp"
+    default     = "dan-3000-tcp"
 }
 
 variable "ecs_host_port" {
