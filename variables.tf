@@ -19,13 +19,13 @@ variable "sg_id" {
 variable "ecs_cluster_name" {
     description = "ECS cluster name"
     type        = string
-    default     = "luqman-ecs-test-cluster" # Change accordingly
+    default     = "dan-ecs-test-cluster" # Change accordingly
 }
 
 variable "ecs_service_name" {
     description = "ECS service name"
     type        = string
-    default     = "luqman-ecs-service" # Change accordingly
+    default     = "dan-ecs-service" # Change accordingly
 }
 
 variable "ecs_task_defn_family" {
@@ -67,5 +67,5 @@ variable "ecr_url" {
 variable "ecr_image_name" {
     description = "ECR image name"
     type        = string
-    default     = "luqman-node-app"
+    default     = "dan-learn-node-app"
 }
