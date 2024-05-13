@@ -1,0 +1,5 @@
+ecs_cluster_name = "dan-ecs-cluster-dev"
+ecs_service_name = "dan-ecs-service-dev"
+ecs_task_defn_family = "dan-ecs-task-def-dev"
+ecs_container_name = "dan-container-dev"
+ecs_port_name = "dan-3000-tcp-dev"
